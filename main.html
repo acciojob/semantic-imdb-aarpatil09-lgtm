@@ -9,34 +9,37 @@
             background-color: #f4f4f4;
             margin: 0;
         }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
+        header, nav, section, aside, footer {
             padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        header {
+            background-color: #ffcc00;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
         }
         nav {
-            background-color: #555;
-            padding: 10px;
-            text-align: center;
+            background-color: #333;
+            color: white;
         }
         nav a {
             color: white;
-            margin: 10px;
+            margin-right: 15px;
             text-decoration: none;
             font-weight: bold;
         }
-        section, aside {
-            padding: 15px;
-            margin: 10px;
+        section {
             background-color: white;
-            border-radius: 5px;
+        }
+        aside {
+            background-color: #e6f2ff;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px;
         }
     </style>
 </head>
@@ -44,12 +47,11 @@
 <body>
 
 <header>
-    <h1>3 Idiots</h1>
-    <p>A Bollywood movie about friendship, learning, and life.</p>
+    3 Idiots - A Journey of Friendship and Learning
 </header>
 
 <nav>
-    <p>Navigation Links:</p>
+    Navigation: 
     <a id="nav-actor" href="#actor">Actors</a>
     <a id="nav-quote" href="#quote">Favorite Quote</a>
 </nav>
@@ -57,17 +59,17 @@
 <section id="summary">
     <h2>Summary</h2>
     <p>
-        3 Idiots is a story about three engineering students who form a strong friendship.
-        The movie highlights the pressure of education systems and encourages learning with passion
-        instead of just chasing marks. It shows how following your dreams is more important than
-        blindly following societal expectations.
+        "3 Idiots" is a story about three engineering students who share a strong bond of friendship. 
+        The movie highlights the pressure of the education system and encourages students to follow 
+        their passion instead of blindly chasing success. Rancho inspires his friends to think differently 
+        and live life with confidence.
     </p>
 </section>
 
 <section id="actor">
     <h2>Actors</h2>
     <p>
-        The movie stars Aamir Khan as Rancho, R. Madhavan as Farhan, Sharman Joshi as Raju,
+        The movie stars Aamir Khan as Rancho, R. Madhavan as Farhan, Sharman Joshi as Raju, 
         Kareena Kapoor as Pia, and Boman Irani as the strict college director Virus.
     </p>
 </section>
@@ -75,18 +77,20 @@
 <section id="quote">
     <h2>Favorite Quote</h2>
     <p>
-        "All is well." – This quote reminds us to stay calm and positive even in difficult situations.
+        "All is well" – A simple phrase that teaches us to stay calm and positive even in difficult situations.
     </p>
 </section>
 
 <aside>
-    <h3>Movie Details</h3>
-    <p>IMDb Rating: 8.4/10</p>
-    <p>Release Date: December 25, 2009</p>
+    <h3>Movie Info</h3>
+    <p>
+        IMDb Rating: 8.4/10 <br>
+        Release Date: December 25, 2009
+    </p>
 </aside>
 
 <footer>
-    <p>Produced by: Vidhu Vinod Chopra</p>
+    Produced by: Vidhu Vinod Chopra
 </footer>
 
 </body>
